@@ -19,6 +19,7 @@ What information can be given by this CoronaVirus Voice Assistant?
 
 This is like a prototype, we can implement this voice assistant to give information state wise and even district wise.
 
+Install all the following libraries at a time using "pip install -r Requirement.txt" commmand.
 
 Libraries used:
 1. SpeechRecognition(3.8.1) -> To recognize input speech and convert it to text.
