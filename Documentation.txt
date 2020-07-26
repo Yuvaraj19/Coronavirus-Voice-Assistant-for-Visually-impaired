@@ -1,0 +1,49 @@
+﻿VOICE ASSISTANT THAT HELPS VISUALLY IMPAIRED PEOPLE 
+DURING THIS POTENTIAL PANDEMIC SITUATION.
+
+
+People who are visually impaired will be facing a lot of problems. They should have someone always beside them to keep them updated about "What's happening".
+So to help such people, My idea is to make a voice assistant which gives them some basic, Important information about the CoronaVirus Pandemic Situation.
+
+
+What information can be given by this CoronaVirus Voice Assistant?
+1. Precautions and Safety measures to prevent this dangerous virus.
+2. Symptoms and Treatment of CoronaVirus.
+3. Facts and Myths about CoronaVirus.
+4. Total Cases, Total Deaths and Total no. of patients recovered world wide.
+5. Total Cases, Total Deaths and Total no. of patients recovered, Country wise.
+6. Top countries in the world which are highly infected due to CoronaVirus.
+7. Top countries in the world which are very safe and are not infected or very low spread in these countries.
+8. Coronavirus helpline number if you have any symptoms of it.
+
+
+This is like a prototype, we can implement this voice assistant to give information state wise and even district wise.
+
+
+Libraries used:
+1. SpeechRecognition(3.8.1) -> To recognize input speech and convert it to text.
+2. gtts(2.1.1) -> To convert text to speech.
+3. pandas(1.0.3) -> To manipulate or use dataframes.
+4. re(in-built) -> To understand patterns from text.
+5. requests(2.23.0) -> To fetch information from “www.worldmeters.info/coronavirus/” website.
+6. bs4(4.9.1) -> To extract data from a fetched website.
+7. playsound(1.2.2) -> To play sound.
+8. os(in-built) -> To delete the files after playing.
+
+
+How does it work?
+* Using some of the libraries mentioned above, I built a web scraping script, which scrapes covid19 cases related information from the “www.worldmeters.info/coronavirus/“ website.
+* web scraper script has a function which when called creates or updates the dataset saved before.
+* And then i imported this script and some more libraries in voiceAssistant script, which calls the function automatically when it is executed.
+* After gathering all the information and cases dataset, i used SpeechRecognition library to input my speech and gtts library to convert text to speech.
+
+Setting up the project:
+step 1: After downloading this project, open it using any python IDE (spyder or VS code).
+step 2: Run the "Covid19Assistant.py" file, make sure you are connected to internet.
+step 3: Ask any of the following questions.
+
+Any queries? Here are my social media handles :)
+Instagram : @theyuvaraaj
+Email : yuvarajpeddi9@gmail.com
+WhatsApp : 6303535706
+Twitter : @theyuvaraaj
