@@ -1,6 +1,6 @@
 SpeechRecognition == 3.8.1
 gtts == 2.1.1
 pandas == 1.0.3
-requests == 2.23.0
+requests == 2.31.0
 bs4 == 4.9.1
 playsound == 1.2.2
